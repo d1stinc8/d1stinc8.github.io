@@ -22,8 +22,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
-      npm_config_os: linux
-      npm_config_cpu: x64
       npm_config_fund: "false"
       npm_config_audit: "false"
     steps:
