@@ -94,7 +94,7 @@ export const RESEARCH_ITEMS: ResearchItem[] = [
     title: "Two-Qubit Rydberg Blockade",
     venue: "M.Tech Research · School of Quantum Technology, DIAT Pune",
     year: "2026",
-    //summary:
+    summary: "",
      // "Investigating two-laser excitation schemes in Rubidium-87 neutral-atom arrays, analyzing blockade fidelity limits and tensor-network approximations for scalable gate architectures.",
   },
   {
