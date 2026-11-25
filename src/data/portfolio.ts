@@ -22,16 +22,16 @@ export const HERO_DATA = {
   tagline: "Quantum Systems · Numerical Simulation · Software Architecture",
   affiliation: "School of Quantum Technology · DIAT Pune",
   statement:
-    "Building low-entanglement tensor network simulators, fault-tolerant quantum error correction engines, and high-craft computational tools.",
+    "Building simulators and high-craft computational tools.",
   location: "Pune, India",
   status: "M.Tech in Quantum Computing — Defence Institute of Advanced Technology (DIAT), Pune",
 };
 
 export const ABOUT_DATA = {
-  lead: "I work at the intersection of quantum information physics and low-level systems engineering—translating theoretical architectures into deterministic, high-throughput software.",
+  lead: "I work at the intersection of quantum information science and low-level systems engineering: translating theoretical architectures into deterministic, high-throughput software.",
   paragraphs: [
-    "Currently pursuing an M.Tech in Quantum Computing at the School of Quantum Technology, Defence Institute of Advanced Technology (DIAT), Pune, where I also serve as Placement Coordinator bridging deep-tech research labs and industry teams.",
-    "My engineering philosophy favors first-principles clarity: center-out system design, minimal abstractions, reproducible builds, and hardware-aware numerical computation in C++17/20 and Python.",
+    "Currently pursuing an M.Tech in Quantum Computing at the School of Quantum Technology, Defence Institute of Advanced Technology (DIAT), Pune.",
+    "My engineering philosophy favors first-principles clarity: center-out system design, minimal abstractions, reproducible builds, and hardware-aware numerical computation.",
   ],
   highlights: [
     {
@@ -40,7 +40,7 @@ export const ABOUT_DATA = {
     },
     {
       label: "Core Stack",
-      value: "C++17/20, Python, Eigen, pybind11, CMake, Ninja, Pulser",
+      value: "C, C++17/20, Python, CMake, Ninja, Pulser, Qiskit",
     },
     {
       label: "Leadership",
@@ -53,7 +53,7 @@ export const WORK_ITEMS: WorkItem[] = [
   {
     title: "Neutral-Atom MPS Circuit Simulator",
     year: "2026",
-    role: "Creator & Systems Architect",
+    // role: "Creator & Systems Architect",
     summary:
       "A high-performance Matrix Product State (MPS) tensor network simulator tailored for low-entanglement neutral-atom quantum circuits.",
     details: [
@@ -87,26 +87,15 @@ export const WORK_ITEMS: WorkItem[] = [
     link: "https://github.com/yourusername/neutral-atom-viz",
   },
     */
-  {
-    title: "Open Source — pasqal-io/Pulser",
-    year: "2025 — 2026",
-    role: "Contributor",
-    summary:
-      "Contributed improvements to Pasqal's open-source pulse-level programming framework for neutral-atom quantum processors.",
-    details: [
-      "Focused on pulse sequence reliability and simulation workflows for programmable Rydberg atom arrays.",
-    ],
-    link: "https://github.com/pasqal-io/Pulser",
-  },
 ];
 
 export const RESEARCH_ITEMS: ResearchItem[] = [
   {
-    title: "Two-Qubit Rydberg Blockade & 87Rb Excitation Dynamics",
+    title: "Two-Qubit Rydberg Blockade",
     venue: "M.Tech Research · School of Quantum Technology, DIAT Pune",
     year: "2026",
-    summary:
-      "Investigating two-laser excitation schemes in Rubidium-87 neutral-atom arrays, analyzing blockade fidelity limits and tensor-network approximations for scalable gate architectures.",
+    //summary:
+     // "Investigating two-laser excitation schemes in Rubidium-87 neutral-atom arrays, analyzing blockade fidelity limits and tensor-network approximations for scalable gate architectures.",
   },
   {
     title: "Computer Vision & Real-Time Hand Gesture Control Architecture",
@@ -129,15 +118,19 @@ export const PASSIONS_DATA = {
   entries: [
     {
       title: "Visual & Generative Simulations",
-      note: "Writing lightweight C and raylib sketches that turn invisible mathematical rules into calm, physical motion.",
+      note: "Writing lightweight C and raylib sketches that just help me visualise fun stuff.",
     },
     {
-      title: "Architectural Minimalism & Design",
-      note: "Studying spatial proportion, Swiss typography, and objects stripped down to their essential structure.",
+      title: "Reading",
+      note: "Reading about anything that interests me, Just an avid reader.",
     },
     {
-      title: "Cinema & Character Craft",
+      title: "Cinema",
       note: "Observing pacing, stillness, and understated presence across classic and contemporary cinema.",
+    },
+    {
+      title: "Food",
+      note: "I love to cook vegetarian dishes across the world, and also to eat food from everywhere",
     },
   ],
 };
@@ -148,7 +141,7 @@ export const CONTACT_DATA = {
   location: "Pune, Maharashtra, India",
   socials: [
     { label: "GitHub", handle: "@d1stinc8", url: "https://github.com/d1stinc8" },
-    { label: "LinkedIn", handle: "/in/yourusername", url: "https://linkedin.com/in/anurag-angal/" },
+    { label: "LinkedIn", handle: "/in/anurag-angal", url: "https://linkedin.com/in/anurag-angal/" },
     { label: "X / Twitter", handle: "@qc_anurag", url: "https://x.com/qc_anurag" },
   ],
 };
