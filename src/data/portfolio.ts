@@ -53,7 +53,7 @@ export const WORK_ITEMS: WorkItem[] = [
   {
     title: "Neutral-Atom MPS Circuit Simulator",
     year: "2026",
-    // role: "Creator & Systems Architect",
+    role: "Creator",
     summary:
       "A high-performance Matrix Product State (MPS) tensor network simulator tailored for low-entanglement neutral-atom quantum circuits.",
     details: [
